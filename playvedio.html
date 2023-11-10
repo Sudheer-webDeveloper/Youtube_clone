@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>play-YouTube video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="menu.png" alt="" class="menu-icon">
+            <img src="logo.png" alt="" class="logo">
+        </div>
+
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="search.png" alt="search icon">
+            </div>
+            <img src="voice-search.png" alt="voice search" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="upload.png" alt="">
+            <img src="more.png" alt="">
+            <img src="notification.png" alt="">
+            <img src="Jack.png" alt="" class="user-icon">
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- in index.html file we have given padding-left 17% that's why the video is not in proper way that's why we are adding new class to the container  and adjusting the padding by using the new class play-container-->
+    <div class="container play-container">
+        <div class="row">
+            <!-- inside row there are 2 coloums there are play-video and right-sidebar we have applied flex basis to them for our required alignment -->
+            <div class="play-video">
+                <video controls autoplay>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <div class="tags">
+                    <a href="">#Designing</a>
+                    <a href="">#Coding</a>
+                    <a href="">#Poster Making</a>
+                    <a href="">#Digital Marketing</a>
+                </div>
+                <h3>Best YouTube Channel To Learn New Technologies</h3>
+
+                <div class="play-video-info">
+                    <p>
+                        1225 Views &bull; 2 days ago
+                    </p>
+                    <div>
+                        <a href=""><img src="like.png" alt="">125K</a>
+                        <a href=""><img src="dislike.png" alt="">30</a>
+                        <a href=""><img src="share.png" alt="">Share</a>
+                        <a href=""><img src="save.png" alt="">Save</a>
+                    </div>
+                </div>
+
+
+                <hr>
+                <div class="publisher">
+                    <img src="Jack.png" alt="">
+                    <div>
+                        <p>Self-Prep</p>
+                        <span>500K Subscribers</span>
+                    </div>
+
+
+                    <button type="button">Subscribe</button>
+                </div>
+                <div class="vid-description">
+                    <p>
+                        Channel Makes Designing Of WenSites Easy
+                    </p>
+                    <p>Subscribe Easy Prep to Watch more sessions on Web Designing</p>
+
+                    <hr>
+
+                    <h4>134 comments</h4>
+
+                    <div class="add-comment">
+                        <img src="Jack.png" alt="">
+                        <input type="text" placeholder="Write Comments">
+                    </div>
+                </div>
+
+                <!-- first commetnt -->
+
+                <div class="old-comment">
+                    <img src="Jack.png" alt="">
+                    <div>
+                        <h3>
+                            Jack James <span>2 Days ago</span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia id dolore distinctio
+                            repellat autem veritatis aliquam numquam magnam quam?Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Neque, velit!</p>
+
+                        <div class="comment-action">
+                            <img src="like.png" alt=""><span>244</span>
+                            <img src="dislike.png" alt=""><span>50</span>
+                            <span>REPLY</span>
+                            <a href="">All Replies</a>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="old-comment">
+                    <img src="Jack.png" alt="">
+                    <div>
+                        <h3>
+                            Jack James <span>2 Days ago</span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia id dolore distinctio
+                            repellat autem veritatis aliquam numquam magnam quam?Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Neque, velit!</p>
+
+                        <div class="comment-action">
+                            <img src="like.png" alt=""><span>244</span>
+                            <img src="dislike.png" alt=""><span>50</span>
+                            <span>REPLY</span>
+                            <a href="">All Replies</a>
+                        </div>
+                    </div>
+                
+                </div>
+
+
+                <div class="old-comment">
+                    <img src="Jack.png" alt="">
+                    <div>
+                        <h3>
+                            Jack James <span>2 Days ago</span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia id dolore distinctio
+                            repellat autem veritatis aliquam numquam magnam quam?Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Neque, velit!</p>
+
+                        <div class="comment-action">
+                            <img src="like.png" alt=""><span>244</span>
+                            <img src="dislike.png" alt=""><span>50</span>
+                            <span>REPLY</span>
+                            <a href="">All Replies</a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div><!-- here is the closing of first colum of play-video-->
+
+            <div class="right-sidebar">
+                <!-- 1                 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail5.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail2.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail3.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail4.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail6.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail1.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail7.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail"><img src="thumbnail8.png" alt="thumb1"></a>
+                    <div class="vid-info">
+                        <a href="">Best Photograohic Designs for Developers</a>
+                        <p>15K Views</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
